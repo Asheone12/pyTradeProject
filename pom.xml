@@ -60,16 +60,22 @@
             <groupId>com.wishes</groupId>
             <artifactId>AbsoluteLayout-origin</artifactId>
             <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}\src\lib\AbsoluteLayout.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.wishes</groupId>
             <artifactId>examples-origin</artifactId>
             <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}\src\lib\examples.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.wishes</groupId>
             <artifactId>jna-origin</artifactId>
             <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}\src\lib\jna.jar</systemPath>
         </dependency>
 
         <!--idea的form_rt.jar依赖包-->
@@ -77,12 +83,16 @@
             <groupId>com.idea</groupId>
             <artifactId>forms</artifactId>
             <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}\src\lib\forms_rt.jar</systemPath>
         </dependency>
         <!--beauty eye依赖包-->
         <dependency>
             <groupId>org.lnf</groupId>
             <artifactId>beautyeye</artifactId>
             <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}\src\lib\beautyeye.jar</systemPath>
         </dependency>
         <!-- 私有jar结束 -->
 
@@ -91,7 +101,7 @@
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
-            <version>1.2.27</version>
+            <version>1.2.12</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
